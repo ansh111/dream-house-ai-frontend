@@ -1,6 +1,6 @@
 // File: src/App.js
 import React from 'react';
-import PropertyFinder from './components/PropertyFinder';
+import PropertyFinder from './PropertyFinder';
 
 function App() {
   return (
