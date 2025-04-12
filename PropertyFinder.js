@@ -15,7 +15,7 @@ const PropertyFinder = () => {
     setResponse('');
 
     try {
-      const res = await axios.post('http://localhost:5000/api/find-properties', {
+      const res = await axios.post('https://dream-house-ai-backend.onrender.com/api/find-properties', {
         query,
         whatsappNumber: whatsapp || undefined
       });
